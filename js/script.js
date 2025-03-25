@@ -25,7 +25,8 @@ function setLangSi(){
     button.innerHTML = slFlag + "සිංහල (LK)";
     localStorage.setItem("selectedLang", "si");
     document.getElementById("hero-txt-main").style.fontFamily = "'Stick No Bills'"
-    document.getElementById("hero-txt-main").style.fontSize = "5rem"
+    document.getElementById("hero-txt-main").classList.add("si-font")
+    document.getElementById("hero-txt-main").classList.remove("en-font")
     changeLang("si");
 }
 
@@ -33,7 +34,8 @@ function setLangEn(){
     button.innerHTML = usFlag + "English (US)";
     localStorage.setItem("selectedLang", "en");
     document.getElementById("hero-txt-main").style.fontFamily = "'Nasalisation'"
-    document.getElementById("hero-txt-main").style.fontSize = "4.5rem"
+    document.getElementById("hero-txt-main").classList.add("en-font")
+    document.getElementById("hero-txt-main").classList.remove("si-font")
     changeLang("en");
 }
 
