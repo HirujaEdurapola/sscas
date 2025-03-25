@@ -40,6 +40,7 @@
 .sj-font{
     font-family: "Nasalisation", monospace;
     cursor: default;
+    color: white;
 }
 
 .sj-font-big{
@@ -52,6 +53,8 @@
     position: fixed;
     width: 100vw;
     background-color: inherit;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .sj-font-big::selection{
@@ -137,6 +140,24 @@ br::selection{
     }
 }
 
+@media (max-width: 525px) {
+    .sj-font-big.si-font{
+        font-size: 2.8rem;
+    }
+    .sj-font-big.en-font{
+        font-size: 2.3rem;
+    }
+
+    .sj-small-font{
+        font-size: 1.7rem;
+        margin-top: 0;
+    }
+
+    .sj-divider{
+        line-height: .5rem;
+    }
+}
+
 @media (max-width: 500px) {
     .sj-font-big.si-font{
         font-size: 2.9rem;
@@ -209,7 +230,7 @@ br::selection{
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 405px) {
     .sj-font-big.si-font{
         font-size: 2.2rem;
     }
