@@ -247,3 +247,46 @@ br::selection{
         line-height: .5rem;
     }
 }
+
+@media (max-width: 370px) {
+    .sj-nav .h-17{
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .sj-nav .h-18{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+}
+
+@media (max-width: 330px) {
+
+    .sj-font{
+        line-height: 3vh;
+        margin-top: 5vh;
+    }
+    .sj-font-big.si-font{
+        font-size: 1.8rem;
+        line-height: 0;
+    }
+    .sj-font-big.en-font{
+        font-size: 1.5rem;
+        line-height: 0;
+    }
+
+    .sj-small-font{
+        font-size: 1rem;
+        margin-top: 0;
+        line-height: 0;
+    }
+
+    .sj-divider{
+        display: block;
+        content: "";
+        margin: 0;
+        padding: 0;
+        max-height: 100px;
+        font-size: x-small;
+    }
+}

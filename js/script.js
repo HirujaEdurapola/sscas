@@ -7,12 +7,26 @@ const button = document.querySelector("#default-lang-btn")
 const translations = {
     "en": {
         heroTxtMain: "Astronomical Society",
-        heroTxtSecondary: "Sri Sumangala College"
+        heroTxtSecondary: "Sri Sumangala College",
+        navBar: {
+            home: "Home",
+            about: "About Us",
+            events: "Events",
+            news: "News",
+            contact: "Contact"
+        }
     },
 
     "si": {
         heroTxtMain: "තාරකා විද්‍යා සංගමය",
-        heroTxtSecondary: "ශ්‍රී සුමංගල විද්‍යාලය"
+        heroTxtSecondary: "ශ්‍රී සුමංගල විද්‍යාලය",
+        navBar: {
+            home: "Home",
+            about: "About Us",
+            events: "Events",
+            news: "News",
+            contact: "Contact"
+        }
     }
 }
 
