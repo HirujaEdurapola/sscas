@@ -2,7 +2,6 @@
   background-image: linear-gradient(0deg, rgba(41, 43, 51, 0.55), rgba(41, 43, 51, 0.55)), url('images/SSCAS_Web_Banner_IMG.png');
   background-size: cover, cover;
   background-repeat: no-repeat, no-repeat;
-  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -115,6 +114,7 @@
 
 .u-section-2 .u-text-1 {
   font-family: Inter;
+  font-weight: 400;
   margin: 20px auto 0;
 }
 
@@ -943,7 +943,11 @@
 
 @media (max-width: 575px) {
   .u-section-5 .u-sheet-1 {
-    min-height: 2310px;
+    min-height: 2282px;
+  }
+
+  .u-section-5 .u-text-1 {
+    margin-top: 21px;
   }
 
   .u-section-5 .u-image-1 {
@@ -971,6 +975,7 @@
 
   .u-section-5 .u-image-3 {
     height: 220px;
+    object-position: 50% 39.47%;
     margin-right: initial;
     margin-left: initial;
   }
@@ -1004,7 +1009,7 @@
 
   .u-section-5 .u-image-6 {
     height: 220px;
-    object-position: 50% 72.38%;
+    object-position: 50% 4.38%;
     margin-right: initial;
     margin-left: initial;
   }
@@ -1016,7 +1021,7 @@
 
   .u-section-5 .u-btn-1 {
     margin-top: 11px;
-    margin-bottom: 49px;
+    margin-bottom: 21px;
   }
 }.u-block-1615-2 {
   position: absolute;
@@ -1139,6 +1144,7 @@
   height: 255px;
   margin-top: 0;
   margin-bottom: 0;
+  object-position: 50% 36.65%;
 }
 
 .u-section-6-1 .u-text-6 {
@@ -1202,7 +1208,7 @@
   height: 255px;
   margin-top: 0;
   margin-bottom: 0;
-  object-position: 26.13% 72.33%;
+  object-position: 26.13% 7.29%;
 }
 
 .u-section-6-1 .u-text-12 {
@@ -1792,9 +1798,9 @@
 }
 
 .u-section-6-3 .u-repeater-1 {
-  grid-template-columns: repeat(3, calc(33.3333% - 6.66667px));
-  min-height: 347px;
-  grid-auto-columns: calc(33.3333% - 6.66667px);
+  grid-template-columns: repeat(2, calc(50% - 5px));
+  min-height: 414px;
+  grid-auto-columns: calc(50% - 5px);
   grid-gap: 10px;
 }
 
@@ -1803,8 +1809,9 @@
 }
 
 .u-section-6-3 .u-image-1 {
-  height: 247px;
-  margin: 0 auto 0 0;
+  height: 334px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .u-section-6-3 .u-text-2 {
@@ -1823,8 +1830,10 @@
 }
 
 .u-section-6-3 .u-image-2 {
-  height: 247px;
-  margin: 0 auto 0 0;
+  height: 334px;
+  margin-top: 0;
+  margin-bottom: 0;
+  object-position: 50% 63.52%;
 }
 
 .u-section-6-3 .u-text-4 {
@@ -1834,26 +1843,6 @@
 }
 
 .u-section-6-3 .u-text-5 {
-  font-family: Inter;
-  margin: 0 30px;
-}
-
-.u-section-6-3 .u-container-layout-3 {
-  padding: 0;
-}
-
-.u-section-6-3 .u-image-3 {
-  height: 247px;
-  margin: 0 auto 0 0;
-}
-
-.u-section-6-3 .u-text-6 {
-  font-family: Inter;
-  font-weight: 700;
-  margin: 18px 10px 0 30px;
-}
-
-.u-section-6-3 .u-text-7 {
   font-family: Inter;
   margin: 0 30px;
 }
@@ -1869,15 +1858,11 @@
 
 @media (max-width: 1199px) {
   .u-section-6-3 .u-repeater-1 {
-    grid-template-columns: repeat(3, calc(33.333333333333336% - 6.66667px));
-    grid-auto-columns: calc(33.333333333333336% - 6.66667px);
-    min-height: 285px;
+    min-height: 340px;
   }
 
   .u-section-6-3 .u-image-1 {
-    height: 204px;
-    margin-right: initial;
-    margin-left: initial;
+    height: 275px;
   }
 
   .u-section-6-3 .u-text-2 {
@@ -1891,9 +1876,7 @@
   }
 
   .u-section-6-3 .u-image-2 {
-    height: 204px;
-    margin-right: initial;
-    margin-left: initial;
+    height: 275px;
   }
 
   .u-section-6-3 .u-text-4 {
@@ -1905,96 +1888,52 @@
     margin-left: 0;
     margin-right: 0;
   }
-
-  .u-section-6-3 .u-image-3 {
-    height: 204px;
-    margin-right: initial;
-    margin-left: initial;
-  }
-
-  .u-section-6-3 .u-text-6 {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .u-section-6-3 .u-text-7 {
-    margin-left: 0;
-    margin-right: 0;
-  }
 }
 
 @media (max-width: 991px) {
-  .u-section-6-3 .u-repeater-1 {
-    grid-template-columns: repeat(2, calc(50% - 5.0000025px));
-    grid-auto-columns: calc(50% - 5.0000025px);
-    min-height: 670px;
-  }
-
-  .u-section-6-3 .u-image-1 {
-    height: 234px;
-    margin-right: initial;
-    margin-left: initial;
-  }
-
-  .u-section-6-3 .u-image-2 {
-    height: 234px;
-    margin-right: initial;
-    margin-left: initial;
-  }
-
-  .u-section-6-3 .u-image-3 {
-    height: 234px;
-    margin-right: initial;
-    margin-left: initial;
-  }
-}
-
-@media (max-width: 767px) {
   .u-section-6-3 .u-repeater-1 {
     grid-template-columns: 100%;
     grid-auto-columns: calc(100% - 0px);
   }
 
   .u-section-6-3 .u-image-1 {
-    height: 351px;
-    margin-right: initial;
-    margin-left: initial;
+    height: 421px;
+  }
+
+  .u-section-6-3 .u-text-3 {
+    margin-top: 20px;
   }
 
   .u-section-6-3 .u-image-2 {
-    height: 351px;
-    margin-right: initial;
-    margin-left: initial;
+    height: 421px;
   }
 
-  .u-section-6-3 .u-image-3 {
-    height: 351px;
-    margin-right: initial;
-    margin-left: initial;
+  .u-section-6-3 .u-text-5 {
+    margin-top: 20px;
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 767px) {
   .u-section-6-3 .u-repeater-1 {
     grid-auto-columns: 100%;
   }
 
   .u-section-6-3 .u-image-1 {
-    height: 221px;
-    margin-right: initial;
-    margin-left: initial;
+    height: 316px;
   }
 
   .u-section-6-3 .u-image-2 {
-    height: 221px;
-    margin-right: initial;
-    margin-left: initial;
+    height: 316px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-6-3 .u-image-1 {
+    height: 199px;
   }
 
-  .u-section-6-3 .u-image-3 {
-    height: 221px;
-    margin-right: initial;
-    margin-left: initial;
+  .u-section-6-3 .u-image-2 {
+    height: 199px;
   }
 } .u-section-7 {
   background-image: none;
@@ -2025,7 +1964,7 @@
 .u-section-7 .u-image-1 {
   background-position: 50% 50%;
   background-repeat: no-repeat, no-repeat;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/WhatsAppImage2025-04-15at16.05.59.jpeg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Screenshot2025-04-16104406.png');
   background-size: cover, cover;
 }
 
